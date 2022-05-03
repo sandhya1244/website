@@ -1,0 +1,208 @@
+
+
+#navbar{
+    font-display: flex;
+    align-items: center;
+    position: relative;
+}
+
+/*nav bar:logo and image*/
+#logo img{
+    margin:3px 5px;
+    height:70px;   
+}
+#logo2{margin:20px 34px;
+    height: 44px;
+}
+
+/*navigation bar*/
+#navbar ul
+{display: flex;
+     font-family: 'Baloo Da 2', cursive;
+    }
+
+#navbar::before{
+    content: "";
+    background-color: black;
+    position: absolute;
+    z-index:-1;
+    opacity: 0.4;
+    height:100%;
+    width: 100%;}
+
+#navbar ul li{list-style: none;
+font:size 1.3re;}
+
+#navbar ul li a{display: block;
+    color: white;
+    padding: 3px 22px;
+border-radius: 20px;
+text-decoration: none;}
+
+
+#navbar ul li a:hover{
+    color:black;
+    background-color: white;
+    }
+
+/*Home section*/
+#home{
+    display: flex;
+    flex-direction: column;
+    padding: 3px 200px;
+    align-items: center;
+    height:400px;
+    justify-content: center;
+    animation: 20s
+}
+
+
+#home::before{
+    content: "";
+    position:absolute;
+    background: url('../2.jpg');
+    height:600px;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    opacity: 0.89;
+    z-index: -1;
+}
+#home h1{
+    color: white;
+    text-align: center;
+    font-family: 'Baloo Da 2', cursive;
+    font-size: 3rem;
+}
+#home p{
+    color:white;
+    text-align: center;
+    font-size: 1rem;
+    font-family: 'Baloo Da 2', cursive;
+    justify-content: center;
+}
+
+
+/*services section*/
+#services{
+    padding: 34px !important;
+    display: flex;
+}
+
+
+
+
+
+
+
+#contact{
+    margin: 30px;
+    display: flex;
+    position:relative;
+    padding: 3px 200px;
+    height: 400px;
+
+}
+
+#contact::before{
+    content: "";
+    position:absolute;
+    background: url('../social.png');
+    height: 100%;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+    z-index: -1;
+    display: block;
+opacity: 0.5;}
+
+
+
+
+#contact-box{
+    padding: 0px;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+}
+#contact-box input,
+#contact-box textarea{
+    width: 100%;
+    padding: 0.5rem;
+    border-radius: 9px;
+    font-size: 1rem;
+}
+#contact-box form{
+    width:100%;
+}
+#contact-box label{
+    font-size: 1.3rem;
+}
+footer{
+    text-align: center;
+    background: black;
+    padding: 9px 20px;
+    color: white;
+    font: bold;
+}
+
+
+/*utility classes*/
+.h-primary1{
+    font: 3rem;
+    padding: 12px;
+    padding-top: 100px;
+    padding-left: 3px;
+    font-family: 'Baloo Da 2', cursive;
+    color: crimson;
+    justify-content: center;
+    text-align: center;
+    font-size: 2rem;
+}
+
+.h-primary{
+    font: 3rem;
+    padding: 12px;
+    font-family: 'Baloo Da 2', cursive;
+    color:blue;
+    justify-content: center;
+    text-align: center;}
+.btn{
+    padding: 7px 20px;
+    margin: 20px;
+    background-color:blue;
+    color: white;
+    font-size: 1rem;
+    border: 2px solid white;
+     border-radius: 10px;
+     cursor: pointer;
+     font-family:'Baloo Da 2', cursive;
+}
+.center{
+    text-align: center;
+}
+.h-secondary{
+    color:black;
+    font: 2rem;
+    padding: 12px;
+    font-family: 'Baloo Da 2', cursive;
+    cursor: pointer;
+}
+
+.box{
+    border: 2px solid brown!important;
+    padding: 34px;
+    margin: 3px 7px;
+    border-radius: 28px;
+    background-color: rgb(230, 217, 217);
+}
+
+
+.box img{
+    height: 150px;
+    margin: auto;
+    display: block;
+}
+.box p{
+    font-family:'Baloo Da 2', cursive; 
+}
